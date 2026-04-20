@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="topics_quiz" type="laser.py" name="perete_detector" output="screen">
+    </node>
+</launch>
