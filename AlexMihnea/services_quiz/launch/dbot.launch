@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find diffbot_gazebo)/launch/diffbot.launch" />
+    <node pkg="services_quiz" type="dbot_server.py" name="salam_sasesc" output="screen" />
+    <node pkg="services_quiz" type="dbot_client.py" name="sunca_praga" output="screen" />
+</launch>
