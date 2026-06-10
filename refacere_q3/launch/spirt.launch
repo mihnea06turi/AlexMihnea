@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="refacere_q3" type="server_dezinfectant.py" name="nod_sanitar" output="screen" />
+</launch>
